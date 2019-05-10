@@ -1,0 +1,68 @@
+
+
+button{
+    padding: 10px;
+    margin: 13px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* margin-bottom: 3px; */
+    /* margin-top: 3px; */
+    /* background: transparent; */
+    background:green;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    border-color: green;
+}
+
+.current{
+    padding:0px;
+    margin:13px;
+    font-size:22px;
+    background:white;
+    /* font-weight: bold; */
+    width:20px;
+    height:20px;
+    border-color:transparent;
+    vertical-align:middle;
+    color:black;
+    border-radius:50px
+
+}
+
+
+.player1goal{
+    background: #99ccff;
+    border-color: #99ccff
+}
+
+.player2goal{
+    background: #ff9933;
+    border-color: #ff9933;
+}
+
+.fa{
+    left: -3px;
+    top: -4px;
+    position: relative;
+}
+
+.player1{
+    background:  #99ccff    ;
+    /* color:coral */
+}
+
+.player2{
+    background: #ff9933    ;
+    /* color:blueviolet */
+}
+
+.field{
+    position: absolute;
+    top: 8px;
+    width: 486px;
+    height: 650px;
+    z-index: -1;
+    background: white;
+
+}
